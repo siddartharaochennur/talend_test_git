@@ -15,9 +15,8 @@
   <properties>
     <talend.project.name>TEST_PROJECT</talend.project.name>
     <deploy.version>0.2.0-SNAPSHOT</deploy.version>
-    <projectsTargetDirectory>C:\Talend\7.0.1\ci_builder\target</projectsTargetDirectory>
-    <product.path>C:\Talend\7.0.1\cmdline\studio</product.path>
-    <commandline.workspace>C:\Talend\7.0.1\ci_builder\commandline-workspace</commandline.workspace>
+    <projectsTargetDirectory>C:\Talend 7.0\CI_BUILDER\TARGET</projectsTargetDirectory>
+    <commandline.workspace>C:\Talend 7.0\CI_BUILDER\CI_WORKSPACE</commandline.workspace>
     <encoding>UTF-8</encoding>
   </properties>
   <build>
