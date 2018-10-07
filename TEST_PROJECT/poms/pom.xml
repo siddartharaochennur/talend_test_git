@@ -9,11 +9,15 @@
   <name>TEST_PROJECT Codes Master</name>
   <url>http://www.talend.org/</url>
   <modules>
-    <module>code/routines</module>
     <module>jobs/process/dev_test_job_0.1</module>
+    <module>code/routines</module>
   </modules>
   <properties>
     <talend.project.name>TEST_PROJECT</talend.project.name>
+    <deploy.version>0.2.0-SNAPSHOT</deploy.version>
+    <projectsTargetDirectory>C:\Talend\7.0.1\ci_builder\target</projectsTargetDirectory>
+    <product.path>C:\Talend\7.0.1\cmdline\studio</product.path>
+    <commandline.workspace>C:\Talend\7.0.1\ci_builder\commandline-workspace</commandline.workspace>
     <encoding>UTF-8</encoding>
   </properties>
   <build>

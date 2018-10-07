@@ -28,7 +28,7 @@
     <talend.routine.groupid>org.example.test_project.code</talend.routine.groupid>
     <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
     <talend.job.jvmargs>-Xms256M -Xmx1024M -Dfile.encoding=UTF-8 </talend.job.jvmargs>
-    <talend.project.branch>branches/Dev_Talend</talend.project.branch>
+    <talend.project.branch>branches/Talend_Branch</talend.project.branch>
     <talend.job.context>dev</talend.job.context>
     <talend.job.stat>true</talend.job.stat>
     <talend.job.date>${maven.build.timestamp}</talend.job.date>
