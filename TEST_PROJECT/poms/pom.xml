@@ -11,6 +11,7 @@
   <modules>
     <module>code/routines</module>
     <module>jobs/process/test_wait_job_0.1</module>
+    <module>../../TESTING/poms</module>
   </modules>
   <properties>
     <talend.project.name>TEST_PROJECT</talend.project.name>
