@@ -355,7 +355,7 @@
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
     <elementParameter field="PASSWORD" name="PASS" show="false" value="0RMsyjmybrE="/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;information_schema.table&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;information_schema.columns&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
@@ -548,11 +548,11 @@
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
     <elementParameter field="PASSWORD" name="PASS" show="false" value="0RMsyjmybrE="/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;information_schema.columns&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select id, name from employee&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT&#13;&#10;  &#9;TABLE_NAME,&#13;&#10;COLUMN_NAME, DATA_TYPE,LENGTH,PRECISION&#13;&#10;FROM&#13;&#10;  &#9;INFORMATION_SCHEMA.COLUMNS"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
@@ -739,11 +739,11 @@
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
     <elementParameter field="PASSWORD" name="PASS" show="false" value="0RMsyjmybrE="/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;information_schema.columns&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select id, name from employee&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT&#13;&#10;  &#9;TABLE_NAME,&#13;&#10;COLUMN_NAME, DATA_TYPE,LENGTH,PRECISION&#13;&#10;FROM&#13;&#10;  &#9;INFORMATION_SCHEMA.COLUMNS"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
@@ -997,13 +997,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_0f293a2e-4948-438d-a0e2-4c482295dff0"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>J11DG4Tcrp484t1n7EHvAvJflqXGld2l2/b+JtVy4dJ3NIOmxWImBG+Q/6wFDpH6dfQfpNJ9IhKU
-4QHGN1k+og==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_dfd8a826-efc8-4631-b193-5fd1d65e4427"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>6Hkdw1vjuoxPS0FTRTzoHanED6b49i5VHwUiNrQxBNOSM6sNa/JCPn+PjgBzKu/O/BVkbuLEMBM+
-kLX0Nebvxw==</DigestValue></Reference></SignedInfo><SignatureValue>C8Z76VDhGLerwoyOw+csyWR3evS71uHsY+qo7PfPg/7AO+Rs+WErp+sVaA666+NgjN2Vj1RKG2i5
-YwRdLzgOaVv6FrO7qxIH7wpx7e+ib2gna9tJg+PksavY+PyjHaO3FLaJxE36J+c+ycV1BrJHgLdY
-WQVZJFGQIa6cjioSPJhXBECdak5H2xB+x/Qe7C5//FhMA42Rw7wtSkhM2EI0d0iuumxhYzl7eNS2
-WEE4mzA1rSCurgNkyeSlRZUl2RAM3j1u+JvTgfqZY3S7CIjdcZA3QVT4hEwtB3A9hkbjSGD2fmLf
-v/GQfwwaNz0CL3HPhIshYeFFEo822lZ9UQY6gg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_b58a5e86-0e08-4d33-b4a9-00624c97cfd1"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>iajyM4qV6XvajPpeRzIsNy5zoftHgilrt3MLmmHAzGBoeQ5HGfgQnzX7y4+gCIcVNOnhY5DKXvOW
+XK9xPh1USw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_9eaf8c8c-97a1-4fe0-a2ee-14627190140c"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>iA0CaQc+u+z8hIBlmOkDuQgTQdUE+6KxEnxbMu7tHNoxIRBFdG4dUuD4m4mD3EnZv9w1hkesPKkm
+7EVX3CYsPA==</DigestValue></Reference></SignedInfo><SignatureValue>MCqX4rCyWH3+zX1bApNzvzJTuRpYR6F6oQl2fK1dIHKg70ggVawDtp3i+mGVu/GshZYdvIgZzqPZ
+M5hFKwN37dcOzHfXKbecPVZCi3UE5GedlFkTDh8XDruhnEkkFvT/kuCtSzi8URFbJqvHu1mi0Yyu
+aMz2Pa7vwpsDB+sUV7/+XFfzPzphw3+mM5G7NeJSAXYcBaCwu9AKRPFc9qTHyZ4I6e18ZdXpECBk
+VddfqzYyNdY9QU73yuaDWEgKOfmWX2+Jsv3cbsW/6HHtFn6qj7RY2MJE/IKhO+OivpubcUARfa9/
+wSwLVW7hMGesOlg9dpJGsztR+Gv5Y5G+rcPT0g==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
 BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
 RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
 LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
@@ -1027,4 +1027,4 @@ r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
 EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
 BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
 6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
-Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_dfd8a826-efc8-4631-b193-5fd1d65e4427" Target="#_0f293a2e-4948-438d-a0e2-4c482295dff0"><Timestamp>2018-10-17 19:01:18</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_9eaf8c8c-97a1-4fe0-a2ee-14627190140c" Target="#_b58a5e86-0e08-4d33-b4a9-00624c97cfd1"><Timestamp>2018-10-17 19:02:10</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
