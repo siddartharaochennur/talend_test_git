@@ -9,9 +9,9 @@
     <relativePath>../../../</relativePath>
   </parent>
   <groupId>org.example.test_project.job</groupId>
-  <artifactId>test_java_code</artifactId>
+  <artifactId>metadata_database_update</artifactId>
   <version>0.1.0</version>
-  <name>TEST_PROJECT test_java_code-0.1.0 (0.1,Job Designs)</name>
+  <name>TEST_PROJECT metadata_database_update-0.1.0 (0.1,Job Designs)</name>
   <properties>
     <output.resources.dir>${talend.job.name}/src/main/resources</output.resources.dir>
     <talend.job.applyContextToChildren>false</talend.job.applyContextToChildren>
@@ -19,11 +19,11 @@
     <current.int-resources.dir>${basedir}/src/main/resources</current.int-resources.dir>
     <talend.job.version>0.1</talend.job.version>
     <talend.project.name.lowercase>test_project</talend.project.name.lowercase>
-    <talend.job.path>test_project/test_java_code_0_1</talend.job.path>
+    <talend.job.path>test_project/metadata_database_update_0_1</talend.job.path>
     <maven.build.timestamp.format>yyyy-MM-dd HHmmssSSS</maven.build.timestamp.format>
     <talend.project.name>TEST_PROJECT</talend.project.name>
     <talend.product.version>7.0.1.20180411_1414</talend.product.version>
-    <talend.job.finalName>test_java_code_0_1</talend.job.finalName>
+    <talend.job.finalName>metadata_database_update_0_1</talend.job.finalName>
     <talend.pigudf.groupid>org.example.test_project.pigudf</talend.pigudf.groupid>
     <talend.routine.groupid>org.example.test_project.code</talend.routine.groupid>
     <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
@@ -33,7 +33,7 @@
     <talend.job.stat>true</talend.job.stat>
     <talend.job.date>${maven.build.timestamp}</talend.job.date>
     <current.resources.dir>${basedir}/src/main/ext-resources</current.resources.dir>
-    <talend.job.name>test_java_code</talend.job.name>
+    <talend.job.name>metadata_database_update</talend.job.name>
     <talend.job.id>_S40u0NF2Eei8x9wRpzOQ-w</talend.job.id>
     <talend.project.id>0</talend.project.id>
     <talend.job.framework></talend.job.framework>
