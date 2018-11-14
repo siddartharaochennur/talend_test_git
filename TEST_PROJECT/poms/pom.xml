@@ -13,6 +13,7 @@
     <module>jobs/process/test_wait_job_0.1</module>
     <module>jobs/process/metadata_database_update_0.1</module>
     <module>jobs/process/testjob2_0.1</module>
+    <module>jobs/process/REVREC/rp_020_dyn_file_land_load_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TEST_PROJECT</talend.project.name>
